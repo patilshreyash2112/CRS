@@ -1,0 +1,18 @@
+package com.crs.entities;
+
+public enum ComplaintType {
+    ACCIDENTS,
+    ASSAULT,
+    CREDIT_CARD_FRAUD,
+    DOMESTIC_VIOLENCE,
+    DRUG_ACTIVITY,
+    FINANCIAL_CRIMES,
+    FORGERY,
+    FRAUD,
+    MURDER,
+    PERSONAL_CRIMES,
+    PROPERTY_CRIMES,
+    RAPE_SEXUAL_HARASSMENT,
+    WEAPON_LAW_VIOLATIONS,
+    OTHER
+}
