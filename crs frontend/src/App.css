@@ -1,0 +1,228 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.user-options {
+  margin: 10px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+
+.admin-login-btn,
+.user-login-btn,
+.head-login-btn {
+  color: #fff; 
+  background-color: #007bff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.admin-login-btn:hover{
+  background-color: rgb(0, 0, 0);
+}
+.user-login-btn:hover{
+  background-color: rgb(0, 0, 0);
+}
+.head-login-btn:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+.head-login-btn {
+  background-color: #dc3545;
+  
+}
+.admin-login-btn{
+  background-color: #007bff;
+}
+
+.user-login-btn{
+  background-color: green;
+}
+
+.blinking-warning {
+  color: red;
+  font-weight: bold;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+      visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+      visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.logo{
+  width: 120px;
+  padding: auto;
+}
+
+.navBackColor{
+  background-color: rgb(229, 154, 154);
+}
+
+.containerNAV{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.containerNAV-flex{
+  display: flex ;
+  justify-content: safe; 
+  align-items: center;
+
+}
+
+.listNAV{
+  display: flex;
+}
+.listItemNAV{
+  margin-left:2em ; 
+  color:antiquewhite;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width:900px) {
+  .containerNAV{
+      width: 95%;
+      margin: 0 auto;
+      max-width: 1200px;
+  }
+  .containerNAV-flex{
+      display: flex ;
+      flex-direction: column;
+      justify-content: safe; 
+      align-items: center;
+  
+  }
+  .listNAV{
+      display: flex;
+  }
+  
+  .logoNAV{
+      width: 105px;
+      padding: auto;
+  }
+  .listItemNAV{
+      margin-left:2em ; 
+      color:antiquewhite;
+      text-decoration: none;
+      font-size: 1.2rem;
+  }  
+}
+@media screen and (max-width:670px) {
+
+.containerNAV{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.containerNAV-flex{
+  display: flex ;
+  justify-content: safe; 
+  align-items: center;
+
+}
+
+.logoNAV{
+  width: 90px;
+  padding: auto;
+}
+.listNAV{
+  flex-direction: column;
+}
+.listItemNAV{
+  margin-left:2em ; 
+  color:antiquewhite;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+   
+}
+
+.register{
+  background-image:url('./Images/jail.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactBack{
+  background-image: url('./Images/contactBackGroundImage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+height: 100%;}
+  
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+table {
+  width: 90%;
+  margin: 50px auto;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  border-collapse: separate;
+  border-spacing: 0 7px;
+  
+  
+  td {
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
